@@ -143,6 +143,10 @@ if($this->session->userdata('session_sop')=="") {
                         
                     </ul>
                 </li> 
+                <li>
+                    <a href="<?= base_url('log') ?>"><i class="ti-alarm-clock"></i><span>Log</span></a>
+                </li> 
+                
                 <?php } ?>                  
 
             </ul>
